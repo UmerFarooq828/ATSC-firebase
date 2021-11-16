@@ -54,5 +54,5 @@ storage=firebase.storage()
 output=db.child("todolistA").shallow().get()
 print(output.val())
 
-#for user in output.each():
- #   print(user.val())
+# for user in output.each():
+#    print(user.val() )
